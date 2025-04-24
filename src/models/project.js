@@ -33,7 +33,6 @@ const ProjectsSchema = new mongoose.Schema(
     versionKey: false,
   }
 );
-// Export the model
+
 const Projects = mongoose.model("Projects", ProjectsSchema);
-// Export the schema
 module.exports = Projects;

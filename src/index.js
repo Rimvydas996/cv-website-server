@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/api", contentRoutes);
+app.use("/", contentRoutes);
 
 connectDB();
 // 404 handler
